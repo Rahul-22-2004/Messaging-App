@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "server": "cd backend && npm start",
-    "client": "cd frontend && npm start",
-    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\""
+   "start": "cd backend && npm start",
+    "build": "cd frontend && npm run build"
   },
   "repository": {
     "type": "git",
@@ -19,8 +17,5 @@
     "url": "https://github.com/Rahul-22-2004/CHIT-CHAT/issues"
   },
   "homepage": "https://github.com/Rahul-22-2004/CHIT-CHAT#readme",
-  "description": "",
-  "devDependencies": {
-    "concurrently": "^9.2.0"
-  }
+  "description": ""
 }
